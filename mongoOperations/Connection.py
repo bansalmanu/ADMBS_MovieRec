@@ -2,8 +2,8 @@ import pymongo
 from pymongo import MongoClient
 import numpy as np
 
-username= "manubansal"
-password= "bansalmanu"
+username= "****"
+password= "*****"
 clusterUrl = "mongodb+srv://"+username+":"+password+"@cluster0.kip59.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 cluster = MongoClient(clusterUrl)
 
